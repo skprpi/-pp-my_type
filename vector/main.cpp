@@ -3,12 +3,9 @@
 
 class vector {
 public:
-    vector(size_t size) {
-        size_ = 0;
-        capacity = size;
+    vector(size_t size): size_(0), capacity(size) {
         data = new int[capacity];
     }
-
 
     ~vector() {
         delete[]data;
