@@ -1,1 +1,1 @@
-# -pp-my_type
+# cpp-my_type
